@@ -1,0 +1,22 @@
+.GoogleButton {
+  background: var(--red-google);
+  font-weight: 500;
+  color: #fff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  border: 0;
+  border-radius: 8px;
+
+  transition: filter 0.2s;
+
+  &:hover {
+    filter: brightness(0.9);
+  }
+
+  > img {
+    margin-right: 8px;
+  }
+}

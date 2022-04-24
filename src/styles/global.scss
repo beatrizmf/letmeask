@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --red-google: #ea4335;
+
+  --gray: #a8a8b3;
+  --gray-ice: #f8f8f8;
+  --pink: #e559f9;
+  --purple: #835afd;
+}
+
+body {
+  background: var(--gray-ice);
+  color: #29292e;
+}
+
+body,
+input,
+textarea,
+button {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+button {
+  cursor: pointer;
+}
+
+form {
+  input {
+    height: 50px;
+    border-radius: 8px;
+    padding: 0 16px;
+    background: #fff;
+    border: 1px solid var(--gray);
+  }
+
+  button {
+    margin-top: 16px;
+  }
+
+  button,
+  input {
+    width: 100%;
+  }
+}
